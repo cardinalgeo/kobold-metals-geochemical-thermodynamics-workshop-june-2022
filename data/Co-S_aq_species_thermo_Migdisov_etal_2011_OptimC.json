@@ -1,0 +1,116 @@
+{
+    "reactions": [
+      {
+            "reactants": [
+                {
+                    "coefficient": -1,
+                    "symbol": "CoHS+"
+                },
+                {
+                    "coefficient": 1,
+                    "symbol": "Co+2"
+                },
+                {
+                    "coefficient": 1,
+                    "symbol": "HS-"
+                }
+            ],
+            "datasources": [
+                {
+                    "reference": " Migdisov et al., 2011"
+                },
+                {
+                    "reference": " OptimC"
+                }
+            ],
+            "TPMethods": [
+                {
+                    "dr_ryzhenko_coeffs": {
+                        "values": [
+                            8.634,
+                            2.058,
+                            -895.30
+                        ]
+                    },
+                    "method": {
+                        "10": "solute_eos_ryzhenko_gems"
+                    }
+                }
+            ],
+            "equation": "CoHS+ = Co+2 + HS-",
+            "symbol": "CoHS+"
+      },
+      {
+            "reactants": [
+                {
+                    "coefficient": -1,
+                    "symbol": "CoH2S+2"
+                },
+                {
+                    "coefficient": 1,
+                    "symbol": "Co+2"
+                },
+                {
+                    "coefficient": 1,
+                    "symbol": "H2S@"
+                }
+            ],
+            "datasources": [
+                {
+                    "reference": " Migdisov et al., 2011"
+                },
+                {
+                    "reference": " OptimC"
+                }
+            ],
+            "TPMethods": [
+                {
+                    "dr_ryzhenko_coeffs": {
+                        "values": [
+                            1.978,
+                            1.187,
+                            -976.10
+                        ]
+                    },
+                    "method": {
+                        "10": "solute_eos_ryzhenko_gems"
+                    }
+                }
+            ],
+            "equation": "CoH2S+2 = Co+2 + H2S@",
+            "symbol": "CoH2S+2"
+      }
+    ],
+    "substances": [
+      {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "aggregate_state": {
+          "4": "AS_AQUEOUS"
+        },
+        "class_": {
+          "2": "SC_AQSOLUTE"
+        },
+        "formula": "CoH2S+2",
+        "formula_charge": 2,
+        "name": "CoH2S+2",
+        "reaction": "CoH2S+2",
+        "symbol": "CoH2S+2"
+      },
+      {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "aggregate_state": {
+          "4": "AS_AQUEOUS"
+        },
+        "class_": {
+          "2": "SC_AQSOLUTE"
+        },
+        "formula": "CoHS+",
+        "formula_charge": 1,
+        "name": "CoHS+",
+        "reaction": "CoHS+",
+        "symbol": "CoHS+"
+      }
+    ]
+  }

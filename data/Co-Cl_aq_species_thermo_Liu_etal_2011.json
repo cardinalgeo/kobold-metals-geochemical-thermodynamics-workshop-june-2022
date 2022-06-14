@@ -1,0 +1,368 @@
+{
+    "substances": [
+      {
+          "Pst": 100000,
+          "Tst": 298.15,
+          "TPMethods": [
+              {
+                  "eos_hkf_coeffs": {
+                      "names": [
+                          "a1",
+                          "a2",
+                          "a3",
+                          "a4",
+                          "c1",
+                          "c2",
+                          "wref"
+                      ],
+                      "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/(mol*bar)",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                      ],
+                      "values": [
+                          6.5467e-1,
+                          8.2069e2,
+                          2.0130,
+                          -3.1183e4,
+                          76.3357,
+                          11.6389e4,
+                          2.9159e5
+                      ]
+                  },
+                  "method": {
+                      "3": "solute_hkf88_reaktoro"
+                  }
+              }
+          ],
+          "datasources": "Liu et al., 2011",
+          "formula": "CoCl4-2",
+          "formula_charge": -2,
+          "name": "CoCl4-2",
+          "sm_enthalpy": {
+              "units": [
+                  "cal/mol"
+              ],
+              "values": [
+                  -171558
+              ]
+          },
+          "sm_entropy_abs": {
+              "units": [
+                  "cal/(mol*K)"
+              ],
+              "values": [
+                  19.55
+              ]
+          },
+          "sm_gibbs_energy": {
+              "units": [
+                  "cal/mol"
+              ],
+              "values": [
+                  -134150
+              ]
+          },
+          "sm_heat_capacity_p": {
+            "units": [
+              "cal/(mol*K)"
+            ],
+            "values": [
+              72.09
+            ]
+          },
+          "sm_volume": {
+            "units": [
+              "cm3"
+            ],
+            "values": [
+              27.74
+            ]
+          },
+          "symbol": "CoCl4-2",
+          "aggregate_state": {
+              "4": "AS_AQUEOUS"
+          },
+          "class_": {
+              "2": "SC_AQSOLUTE"
+          }
+      },
+      {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/(mol*bar)",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                      ],
+                    "values": [
+                        5.1814e-1,
+                        4.8721e2,
+                        3.4448,
+                        -2.9805e4,
+                        90.315,
+                        25.336e4,
+                        -0.038e5
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Liu et al., 2011",
+        "formula": "CoCl2(H2O)2",
+        "formula_charge": 0,
+        "name": "CoCl2(H2O)2@",
+        "sm_enthalpy": {
+            "units": [
+                "cal/mol"
+            ],
+            "values": [
+                -96173.2
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "cal/(mol*K)"
+            ],
+            "values": [
+                -15.7962
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "cal/mol"
+            ],
+            "values": [
+                -73419.7
+            ]
+        },
+        "sm_heat_capacity_p": {
+          "units": [
+            "cal/(mol*K)"
+          ],
+          "values": [
+            139.332
+          ]
+        },
+        "sm_volume": {
+          "units": [
+            "cm3"
+          ],
+          "values": [
+            25.06
+          ]
+        },
+        "symbol": "CoCl2(H2O)2@",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+      },
+      {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/(mol*bar)",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                      ],
+                    "values": [
+                        5.1814e-1,
+                        4.8721e2,
+                        3.4447,
+                        -2.9805e4,
+                        6.1805,
+                        -2.8194e4,
+                        -0.038e5
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Liu et al., 2011",
+        "formula": "CoCl2(H2O)4",
+        "formula_charge": 0,
+        "name": "CoCl2(H2O)4@",
+        "sm_enthalpy": {
+            "units": [
+                "cal/mol"
+            ],
+            "values": [
+                -93044.7
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "cal/(mol*K)"
+            ],
+            "values": [
+                2.62
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "cal/mol"
+            ],
+            "values": [
+                -75781.9
+            ]
+        },
+        "sm_heat_capacity_p": {
+        "units": [
+            "cal/(mol*K)"
+        ],
+        "values": [
+            1.11
+        ]
+        },
+        "sm_volume": {
+        "units": [
+            "cm3"
+        ],
+        "values": [
+            25.06
+        ]
+        },
+        "symbol": "CoCl2(H2O)4@",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+      },
+      {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "TPMethods": [
+            {
+                "eos_hkf_coeffs": {
+                    "names": [
+                        "a1",
+                        "a2",
+                        "a3",
+                        "a4",
+                        "c1",
+                        "c2",
+                        "wref"
+                    ],
+                    "units": [
+                        "cal/(mol*bar)",
+                        "cal/mol",
+                        "(cal*K)/(mol*bar)",
+                        "(cal*K)/mol",
+                        "cal/(mol*K)",
+                        "(cal*K)/mol",
+                        "cal/mol"
+                      ],
+                    "values": [
+                        2.1345e-1,
+                        -2.5699e2,
+                        6.6399,
+                        -2.6728e4,
+                        19.6416,
+                        -3.6228e4,
+                        1.7005e5
+                    ]
+                },
+                "method": {
+                    "3": "solute_hkf88_reaktoro"
+                }
+            }
+        ],
+        "datasources": "Liu et al., 2011",
+        "formula": "CoCl(H2O)5+",
+        "formula_charge": 1,
+        "name": "CoCl(H2O)5+",
+        "sm_enthalpy": {
+            "units": [
+                "cal/mol"
+            ],
+            "values": [
+                -51953.1
+            ]
+        },
+        "sm_entropy_abs": {
+            "units": [
+                "cal/(mol*K)"
+            ],
+            "values": [
+                -4.69
+            ]
+        },
+        "sm_gibbs_energy": {
+            "units": [
+                "cal/mol"
+            ],
+            "values": [
+                -45107.8
+            ]
+        },
+        "sm_heat_capacity_p": {
+          "units": [
+            "cal/(mol*K)"
+          ],
+          "values": [
+            -2.83
+          ]
+        },
+        "sm_volume": {
+          "units": [
+            "cm3"
+          ],
+          "values": [
+            -1.5
+          ]
+        },
+        "symbol": "CoCl(H2O)5+",
+        "aggregate_state": {
+            "4": "AS_AQUEOUS"
+        },
+        "class_": {
+            "2": "SC_AQSOLUTE"
+        }
+      }
+    ]
+  }

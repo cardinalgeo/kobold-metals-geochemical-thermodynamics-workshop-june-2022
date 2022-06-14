@@ -1,0 +1,230 @@
+{
+    "reactions": [
+      {
+          "reactants": [
+              {
+                  "coefficient": -1,
+                  "symbol": "CoCl3-"
+              },
+              {
+                  "coefficient": 1,
+                  "symbol": "Co+2"
+              },
+              {
+                  "coefficient": 3,
+                  "symbol": "Cl-"
+              }
+          ],
+          "datasources": [
+              {
+                  "reference": " Migdisov et al., 2011"
+              },
+              {
+                  "reference": " OptimC"
+              }
+          ],
+          "TPMethods": [
+              {
+                  "dr_ryzhenko_coeffs": {
+                      "values": [
+                          6.465,
+                          1.534,
+                          -2264.59
+                      ]
+                  },
+                  "method": {
+                      "10": "solute_eos_ryzhenko_gems"
+                  }
+              }
+          ],
+          "equation": "CoCl3- = Co+2 + 3Cl-",
+          "symbol": "CoCl3-"
+      },
+      {
+          "reactants": [
+              {
+                  "coefficient": -1,
+                  "symbol": "CoCl2@"
+              },
+              {
+                  "coefficient": 1,
+                  "symbol": "Co+2"
+              },
+              {
+                  "coefficient": 2,
+                  "symbol": "Cl-"
+              }
+          ],
+          "datasources": [
+              {
+                  "reference": " Migdisov et al., 2011"
+              },
+              {
+                  "reference": " OptimC"
+              }
+          ],
+          "TPMethods": [
+              {
+                  "dr_ryzhenko_coeffs": {
+                      "values": [
+                          2.628,
+                          2.969,
+                          -1196.60
+                      ]
+                  },
+                  "method": {
+                      "10": "solute_eos_ryzhenko_gems"
+                  }
+              }
+          ],
+          "equation": "CoCl2 = Co+2 + 2Cl-",
+          "symbol": "CoCl2@"
+      },
+      {
+            "reactants": [
+                {
+                    "coefficient": -1,
+                    "symbol": "CoCl+"
+                },
+                {
+                    "coefficient": 1,
+                    "symbol": "Co+2"
+                },
+                {
+                    "coefficient": 1,
+                    "symbol": "Cl-"
+                }
+            ],
+            "datasources": [
+                {
+                    "reference": " Migdisov et al., 2011"
+                },
+                {
+                    "reference": " OptimC"
+                }
+            ],
+            "TPMethods": [
+                {
+                    "dr_ryzhenko_coeffs": {
+                        "values": [
+                            0.528,
+                            0.984,
+                            -260.67
+                        ]
+                    },
+                    "method": {
+                        "10": "solute_eos_ryzhenko_gems"
+                    }
+                }
+            ],
+            "equation": "CoCl+ = Co+2 + Cl-",
+            "symbol": "CoCl+"
+      },
+      {
+        "TPMethods": [
+            {
+            "dr_ryzhenko_coeffs": {
+                "values": [
+                2.426,
+                2.899,
+                -662.33
+                ]
+            },
+            "method": {
+                "10": "solute_eos_ryzhenko_gems"
+            }
+            }
+        ],
+        "datasources": "Migdisov et al., 2011",
+        "equation": "CoCl4-2 = Co+2 + 4Cl- ",
+        "logKr": {
+            "errors": [
+            {}
+            ],
+            "status": [
+            {}
+            ],
+            "values": [
+            {}
+            ]
+        },
+        "reactants": [
+            {
+            "coefficient": 1,
+            "symbol": "Co+2"
+            },
+            {
+            "coefficient": 4,
+            "symbol": "Cl-"
+            },
+            {
+            "coefficient": -1,
+            "symbol": "CoCl4-2"
+            }
+        ],
+        "symbol": "CoCl4-2"
+      }
+    ],
+    "substances": [
+      {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "aggregate_state": {
+          "4": "AS_AQUEOUS"
+        },
+        "class_": {
+          "2": "SC_AQSOLUTE"
+        },
+        "formula": "CoCl4-2",
+        "formula_charge": -2,
+        "name": "CoCl4-2",
+        "reaction": "CoCl4-2",
+        "symbol": "CoCl4-2"
+      },
+      {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "aggregate_state": {
+          "4": "AS_AQUEOUS"
+        },
+        "class_": {
+          "2": "SC_AQSOLUTE"
+        },
+        "formula": "CoCl3-",
+        "formula_charge": -1,
+        "name": "CoCl3-",
+        "reaction": "CoCl3-",
+        "symbol": "CoCl3-"
+      },
+      {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "aggregate_state": {
+          "4": "AS_AQUEOUS"
+        },
+        "class_": {
+          "2": "SC_AQSOLUTE"
+        },
+        "formula": "CoCl2@",
+        "formula_charge": 0,
+        "name": "CoCl2 (aq)",
+        "reaction": "CoCl2@",
+        "symbol": "CoCl2@"
+      },
+      {
+        "Pst": 100000,
+        "Tst": 298.15,
+        "aggregate_state": {
+          "4": "AS_AQUEOUS"
+        },
+        "class_": {
+          "2": "SC_AQSOLUTE"
+        },
+        "formula": "CoCl+",
+        "formula_charge": 1,
+        "name": "CoCl+",
+        "reaction": "CoCl+",
+        "symbol": "CoCl+"
+      }
+    ]
+  }

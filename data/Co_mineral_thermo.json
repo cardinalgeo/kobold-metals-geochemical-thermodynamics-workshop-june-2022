@@ -1,0 +1,661 @@
+
+{
+  "datasources": [
+      "McGill Williams-Jones Lab Unitherm db"
+  ],
+  "date": [
+      "2021-07-06 17:03"
+  ],
+  "substances": [
+    {
+    "name": "Cobalt",
+    "symbol": "Co(s)",
+    "formula": "Co",
+    "formula_charge": 0,
+    "aggregate_state": {
+      "3": "AS_CRYSTAL"
+    },
+    "class_": {
+      "0": "SC_COMPONENT"
+    },
+    "Tst": 298.15,
+    "Pst": 100000,
+    "TPMethods": [
+      {
+        "method": {
+          "0": "cp_ft_equation"
+        },
+        "limitsTP": {
+          "range": false
+        },
+        "m_heat_capacity_ft_coeffs": {
+          "values": [
+            0.000000,
+            0.04184400,
+            -156460.0,
+            268.7500,
+            -0.00001649800,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "units": [
+            "J/(mol*K)",
+            "J/(mol*K^2)",
+            "(J*K)/mol",
+            "J/(mol*K^0.5)",
+            "J/(mol*K^3)",
+            "J/(mol*K^4)",
+            "J/(mol*K^5)",
+            "(J*K^2)/mol",
+            "J/mol",
+            "J/(mol*K^1.5)",
+            "J/(mol*K)"
+          ],
+          "names": [
+            "a0",
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "a7",
+            "a8",
+            "a9",
+            "a10"
+          ]
+        }
+      },
+      {
+        "method": {
+          "34": "mv_constant"
+        }
+      }
+    ],
+    "sm_gibbs_energy": {
+      "values": [
+        0.0
+      ],
+      "units": [
+        "J/mol"
+      ]
+    },
+    "sm_enthalpy": {
+      "values": [
+        0.0
+      ],
+      "units": [
+        "J/mol"
+      ]
+    },
+    "sm_entropy_abs": {
+      "values": [
+        30.04
+      ],
+      "units": [
+        "J/(mol*K)"
+      ],
+      "errors": [
+        0.42
+      ]
+    },
+    "sm_volume": {
+      "values": [
+        0.6670
+      ],
+      "errors": [
+        0.0002
+      ],
+      "units": [
+        "J/bar"
+      ]
+    },
+    "datasources": [
+      "Robie, 1995"
+    ]
+    },
+    {
+      "Pst": 100000,
+      "Tst": 298.15,
+      "TPMethods": [
+          {
+              "limitsTP": {
+                  "lowerT": 273.15,
+                  "range": true,
+                  "upperT": 1000.0
+              },
+              "m_heat_capacity_ft_coeffs": {
+                  "names": [
+                      "a0",
+                      "a1",
+                      "a2",
+                      "a3",
+                      "a4",
+                      "a5",
+                      "a6",
+                      "a7",
+                      "a8",
+                      "a9",
+                      "a10"
+                  ],
+                  "units": [
+                      "J/(mol*K)",
+                      "J/(mol*K^2)",
+                      "(J*K)/mol",
+                      "J/(mol*K^0.5)",
+                      "J/(mol*K^3)",
+                      "J/(mol*K^4)",
+                      "J/(mol*K^5)",
+                      "(J*K^2)/mol",
+                      "J/mol",
+                      "J/(mol*K^1.5)",
+                      "J/(mol*K)"
+                  ],
+                  "values": [
+                      65.82,
+                      0.03032,
+                      -587000.0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                  ]
+              },
+              "method": {
+                  "0": "cp_ft_equation"
+              }
+          },
+          {
+              "method": {
+                  "38": "mv_eos_murnaghan_hp98"
+              }
+          }
+      ],
+      "datasources": "Robie,1995",
+      "formula": "CoS2",
+      "formula_charge": 0,
+      "m_compressibility": [],
+      "m_expansivity": [],
+      "name": "Cattierite",
+      "sm_enthalpy": {
+          "units": [
+              "J/mol"
+          ],
+          "values": [
+              -122798.38
+          ]
+      },
+      "sm_entropy_abs": {
+          "units": [
+              "J/(mol*K)"
+          ],
+          "values": [
+              74.8
+          ]
+      },
+      "sm_gibbs_energy": {
+          "units": [
+              "J/mol"
+          ],
+          "values": [
+              -145100.0
+          ]
+      },
+      "sm_volume": {
+          "units": [
+              "J/bar"
+          ],
+          "values": [
+              2.552
+          ]
+      },
+      "symbol": "Cattierite",
+      "aggregate_state": {
+          "3": "AS_CRYSTAL"
+      },
+      "class_": {
+          "0": "SC_COMPONENT"
+      }
+    },
+    {
+      "Pst": 100000,
+      "Tst": 298.15,
+      "TPMethods": [
+          {
+              "limitsTP": {
+                  "lowerT": 273.15,
+                  "range": true,
+                  "upperT": 1273.2
+              },
+              "m_heat_capacity_ft_coeffs": {
+                  "names": [
+                      "a0",
+                      "a1",
+                      "a2",
+                      "a3",
+                      "a4",
+                      "a5",
+                      "a6",
+                      "a7",
+                      "a8",
+                      "a9",
+                      "a10"
+                  ],
+                  "units": [
+                      "J/(mol*K)",
+                      "J/(mol*K^2)",
+                      "(J*K)/mol",
+                      "J/(mol*K^0.5)",
+                      "J/(mol*K^3)",
+                      "J/(mol*K^4)",
+                      "J/(mol*K^5)",
+                      "(J*K^2)/mol",
+                      "J/mol",
+                      "J/(mol*K^1.5)",
+                      "J/(mol*K)"
+                  ],
+                  "values": [
+                      -30.47,
+                      0.02946,
+                      -4166000.0,
+                      1932.0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                  ]
+              },
+              "method": {
+                  "0": "cp_ft_equation"
+              }
+          },
+          {
+              "method": {
+                  "38": "mv_eos_murnaghan_hp98"
+              }
+          }
+      ],
+      "datasources": "Robie,1995",
+      "formula": "CoO",
+      "formula_charge": 0,
+      "m_compressibility": [],
+      "m_expansivity": [],
+      "name": "CoO(s)",
+      "sm_enthalpy": {
+          "units": [
+              "J/mol"
+          ],
+          "values": [
+              -198357.68
+          ]
+      },
+      "sm_entropy_abs": {
+          "units": [
+              "J/(mol*K)"
+          ],
+          "values": [
+              52.8
+          ]
+      },
+      "sm_gibbs_energy": {
+          "units": [
+              "J/mol"
+          ],
+          "values": [
+              -214100.0
+          ]
+      },
+      "sm_volume": {
+          "units": [
+              "J/bar"
+          ],
+          "values": [
+              1.164
+          ]
+      },
+      "symbol": "CoO(s)",
+      "aggregate_state": {
+          "3": "AS_CRYSTAL"
+      },
+      "class_": {
+          "0": "SC_COMPONENT"
+      }
+    },
+    {
+      "Pst": 100000,
+      "Tst": 298.15,
+      "TPMethods": [
+          {
+              "limitsTP": {
+                  "lowerT": 273.15,
+                  "range": true,
+                  "upperT": 1273.2
+              },
+              "m_heat_capacity_ft_coeffs": {
+                  "names": [
+                      "a0",
+                      "a1",
+                      "a2",
+                      "a3",
+                      "a4",
+                      "a5",
+                      "a6",
+                      "a7",
+                      "a8",
+                      "a9",
+                      "a10"
+                  ],
+                  "units": [
+                      "J/(mol*K)",
+                      "J/(mol*K^2)",
+                      "(J*K)/mol",
+                      "J/(mol*K^0.5)",
+                      "J/(mol*K^3)",
+                      "J/(mol*K^4)",
+                      "J/(mol*K^5)",
+                      "(J*K^2)/mol",
+                      "J/mol",
+                      "J/(mol*K^1.5)",
+                      "J/(mol*K)"
+                  ],
+                  "values": [
+                      -915.7,
+                      0.3866,
+                      -161000.0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                  ]
+              },
+              "method": {
+                  "0": "cp_ft_equation"
+              }
+          },
+          {
+              "method": {
+                  "38": "mv_eos_murnaghan_hp98"
+              }
+          }
+      ],
+      "datasources": "Robie,1995",
+      "formula": "Co3O4",
+      "formula_charge": 0,
+      "m_compressibility": [],
+      "m_expansivity": [],
+      "name": "Co3O4(s)",
+      "sm_enthalpy": {
+          "units": [
+              "J/mol"
+          ],
+          "values": [
+              -769612.205
+          ]
+      },
+      "sm_entropy_abs": {
+          "units": [
+              "J/(mol*K)"
+          ],
+          "values": [
+              109.3
+          ]
+      },
+      "sm_gibbs_energy": {
+          "units": [
+              "J/mol"
+          ],
+          "values": [
+              -802200.0
+          ]
+      },
+      "sm_volume": {
+          "units": [
+              "J/bar"
+          ],
+          "values": [
+              3.977
+          ]
+      },
+      "symbol": "Co3O4(s)",
+      "aggregate_state": {
+          "3": "AS_CRYSTAL"
+      },
+      "class_": {
+          "0": "SC_COMPONENT"
+      }
+    },
+    {
+      "Pst": 100000,
+      "Tst": 298.15,
+      "TPMethods": [
+          {
+              "limitsTP": {
+                  "lowerT": 273.15,
+                  "range": true,
+                  "upperT": 1273.2
+              },
+              "m_heat_capacity_ft_coeffs": {
+                  "names": [
+                      "a0",
+                      "a1",
+                      "a2",
+                      "a3",
+                      "a4",
+                      "a5",
+                      "a6",
+                      "a7",
+                      "a8",
+                      "a9",
+                      "a10"
+                  ],
+                  "units": [
+                      "J/(mol*K)",
+                      "J/(mol*K^2)",
+                      "(J*K)/mol",
+                      "J/(mol*K^0.5)",
+                      "J/(mol*K^3)",
+                      "J/(mol*K^4)",
+                      "J/(mol*K^5)",
+                      "(J*K^2)/mol",
+                      "J/mol",
+                      "J/(mol*K^1.5)",
+                      "J/(mol*K)"
+                  ],
+                  "values": [
+                      153.0,
+                      0.0825,
+                      -1340000.0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                  ]
+              },
+              "method": {
+                  "0": "cp_ft_equation"
+              }
+          },
+          {
+              "method": {
+                  "38": "mv_eos_murnaghan_hp98"
+              }
+          }
+      ],
+      "datasources": "Pankratz, 1987",
+      "formula": "Co3S4",
+      "formula_charge": 0,
+      "m_compressibility": [],
+      "m_expansivity": [],
+      "name": "Linnaeite",
+      "sm_enthalpy": {
+          "units": [
+              "J/mol"
+          ],
+          "values": [
+              -293902.415
+          ]
+      },
+      "sm_entropy_abs": {
+          "units": [
+              "J/(mol*K)"
+          ],
+          "values": [
+              175.9
+          ]
+      },
+      "sm_gibbs_energy": {
+          "units": [
+              "J/mol"
+          ],
+          "values": [
+              -346347.0
+          ]
+      },
+      "sm_volume": {
+          "units": [
+              "J/bar"
+          ],
+          "values": [
+              6.212
+          ]
+      },
+      "symbol": "Linnaeite",
+      "aggregate_state": {
+          "3": "AS_CRYSTAL"
+      },
+      "class_": {
+          "0": "SC_COMPONENT"
+      }
+    },
+    {
+      "Pst": 100000,
+      "Tst": 298.15,
+      "TPMethods": [
+          {
+              "limitsTP": {
+                  "lowerT": 273.15,
+                  "range": true,
+                  "upperT": 1273.2
+              },
+              "m_heat_capacity_ft_coeffs": {
+                  "names": [
+                      "a0",
+                      "a1",
+                      "a2",
+                      "a3",
+                      "a4",
+                      "a5",
+                      "a6",
+                      "a7",
+                      "a8",
+                      "a9",
+                      "a10"
+                  ],
+                  "units": [
+                      "J/(mol*K)",
+                      "J/(mol*K^2)",
+                      "(J*K)/mol",
+                      "J/(mol*K^0.5)",
+                      "J/(mol*K^3)",
+                      "J/(mol*K^4)",
+                      "J/(mol*K^5)",
+                      "(J*K^2)/mol",
+                      "J/mol",
+                      "J/(mol*K^1.5)",
+                      "J/(mol*K)"
+                  ],
+                  "values": [
+                      39.5,
+                      0.0271,
+                      -379000.0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                  ]
+              },
+              "method": {
+                  "0": "cp_ft_equation"
+              }
+          },
+          {
+              "method": {
+                  "38": "mv_eos_murnaghan_hp98"
+              }
+          }
+      ],
+      "datasources": "Pankratz1988, Stuve1985",
+      "formula": "Co9S8",
+      "formula_charge": 0,
+      "m_compressibility": [],
+      "m_expansivity": [],
+      "name": "Co-pentlandite",
+      "sm_enthalpy": {
+          "units": [
+              "J/mol"
+          ],
+          "values": [
+              -693849.98
+          ]
+      },
+      "sm_entropy_abs": {
+          "units": [
+              "J/(mol*K)"
+          ],
+          "values": [
+              410.8
+          ]
+      },
+      "sm_gibbs_energy": {
+          "units": [
+              "J/mol"
+          ],
+          "values": [
+              -816330.0
+          ]
+      },
+      "sm_volume": {
+          "units": [
+              "J/bar"
+          ],
+          "values": [
+              14.933
+          ]
+      },
+      "symbol": "Co-pentlandite",
+      "aggregate_state": {
+          "3": "AS_CRYSTAL"
+      },
+      "class_": {
+          "0": "SC_COMPONENT"
+      }
+    }
+  ],
+  "thermodataset": [
+      "McGill_Hydrothermal_Geochem_ThermoHub_db"
+  ]
+}
