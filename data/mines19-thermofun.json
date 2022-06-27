@@ -962,169 +962,6 @@
     },
     {
       "Pst": 100000,
-      "Tst": 298.15,
-      "drsm_heat_capacity_p": {
-        "units": [
-          "J/(mol*K)"
-        ],
-        "values": [
-          0
-        ]
-      },
-      "drsm_volume": {
-        "units": [
-          "J/bar"
-        ],
-        "values": [
-          0
-        ]
-      },
-      "equation": "Zn+2 + 2Cl- = ZnCl2@",
-      "reactants": [
-        {
-          "coefficient": 1,
-          "symbol": "ZnCl2@"
-        },
-        {
-          "coefficient": -2,
-          "symbol": "Cl-"
-        },
-        {
-          "coefficient": -1,
-          "symbol": "Zn+2"
-        }
-      ],
-      "symbol": "ZnCl2@"
-    },
-    {
-      "Pst": 100000,
-      "Tst": 298.15,
-      "drsm_heat_capacity_p": {
-        "units": [
-          "J/(mol*K)"
-        ],
-        "values": [
-          0
-        ]
-      },
-      "drsm_volume": {
-        "units": [
-          "J/bar"
-        ],
-        "values": [
-          0
-        ]
-      },
-      "equation": "Zn+2 + 3Cl- = ZnCl3-",
-      "reactants": [
-        {
-          "coefficient": 1,
-          "symbol": "ZnCl3-"
-        },
-        {
-          "coefficient": -3,
-          "symbol": "Cl-"
-        },
-        {
-          "coefficient": -1,
-          "symbol": "Zn+2"
-        }
-      ],
-      "symbol": "ZnCl3-"
-    },
-    {
-      "Pst": 100000,
-      "Tst": 298.15,
-      "drsm_heat_capacity_p": {
-        "units": [
-          "J/(mol*K)"
-        ],
-        "values": [
-          0
-        ]
-      },
-      "drsm_volume": {
-        "units": [
-          "J/bar"
-        ],
-        "values": [
-          0
-        ]
-      },
-      "equation": "Zn+2 + 4Cl- = ZnCl4-2",
-      "reactants": [
-        {
-          "coefficient": 1,
-          "symbol": "ZnCl4-2"
-        },
-        {
-          "coefficient": -4,
-          "symbol": "Cl-"
-        },
-        {
-          "coefficient": -1,
-          "symbol": "Zn+2"
-        }
-      ],
-      "symbol": "ZnCl4-2"
-    },
-    {
-      "Pst": 100000,
-      "TPMethods": [
-        {
-          "limitsTP": {
-            "lowerP": 0,
-            "lowerT": 298.15,
-            "range": false,
-            "upperP": 50000000,
-            "upperT": 333.15
-          },
-          "method": {
-            "0": "logk_fpt_function"
-          }
-        },
-        {
-          "method": {
-            "8": "logk_lagrange_interp"
-          }
-        }
-      ],
-      "Tst": 298.15,
-      "drsm_heat_capacity_p": {
-        "units": [
-          "J/(mol*K)"
-        ],
-        "values": [
-          0
-        ]
-      },
-      "drsm_volume": {
-        "units": [
-          "J/bar"
-        ],
-        "values": [
-          0
-        ]
-      },
-      "equation": "Zn+2 + Cl- = ZnCl+",
-      "reactants": [
-        {
-          "coefficient": 1,
-          "symbol": "ZnCl+"
-        },
-        {
-          "coefficient": -1,
-          "symbol": "Zn+2"
-        },
-        {
-          "coefficient": -1,
-          "symbol": "Cl-"
-        }
-      ],
-      "symbol": "ZnCl+"
-    },
-    {
-      "Pst": 100000,
       "TPMethods": [
         {
           "dr_heat_capacity_ft_coeffs": {
@@ -3781,86 +3618,6 @@
       "class_": {
         "2": "SC_AQSOLUTE"
       },
-      "formula": "ZnCl+",
-      "formula_charge": 1,
-      "mass_per_mole": {
-        "values": [
-          100.83299255371
-        ]
-      },
-      "name": "_rdc_ZnCl+           ",
-      "reaction": "ZnCl+",
-      "symbol": "ZnCl+"
-    },
-    {
-      "Pst": 100000,
-      "Tst": 298.15,
-      "aggregate_state": {
-        "4": "AS_AQUEOUS"
-      },
-      "class_": {
-        "2": "SC_AQSOLUTE"
-      },
-      "formula": "ZnCl2@",
-      "formula_charge": 0,
-      "mass_per_mole": {
-        "values": [
-          136.2859954834
-        ]
-      },
-      "name": "_rdc_ZnCl2@",
-      "reaction": "ZnCl2@",
-      "symbol": "ZnCl2@"
-    },
-    {
-      "Pst": 100000,
-      "Tst": 298.15,
-      "aggregate_state": {
-        "4": "AS_AQUEOUS"
-      },
-      "class_": {
-        "2": "SC_AQSOLUTE"
-      },
-      "formula": "ZnCl3-",
-      "formula_charge": -1,
-      "mass_per_mole": {
-        "values": [
-          171.73899841309
-        ]
-      },
-      "name": "_rdc_ZnCl3-",
-      "reaction": "ZnCl3-",
-      "symbol": "ZnCl3-"
-    },
-    {
-      "Pst": 100000,
-      "Tst": 298.15,
-      "aggregate_state": {
-        "4": "AS_AQUEOUS"
-      },
-      "class_": {
-        "2": "SC_AQSOLUTE"
-      },
-      "formula": "ZnCl4-2",
-      "formula_charge": -2,
-      "mass_per_mole": {
-        "values": [
-          207.19198608398
-        ]
-      },
-      "name": "_rdc_ZnCl4-2",
-      "reaction": "ZnCl4-2",
-      "symbol": "ZnCl4-2"
-    },
-    {
-      "Pst": 100000,
-      "Tst": 298.15,
-      "aggregate_state": {
-        "4": "AS_AQUEOUS"
-      },
-      "class_": {
-        "2": "SC_AQSOLUTE"
-      },
       "formula": "ZrCl+3",
       "formula_charge": 3,
       "mass_per_mole": {
@@ -4463,6 +4220,303 @@
         ]
       },
       "symbol": "ZrF6-2"
+    },
+    {
+      "name": "ZnCl+",
+      "symbol": "ZnCl+",
+      "formula": "ZnCl+",
+      "formula_charge": 1,
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "TPMethods": [
+        {
+          "method": {
+            "3": "solute_hkf88_reaktoro"
+          },
+          "eos_hkf_coeffs": {
+            "values": [
+              0.16583000123501,
+              -372.92999267578,
+              7.2087998390198,
+              -26248,
+              19.694700241089,
+              10190.999023438,
+              20250,
+              0
+            ],
+            "units": [
+              "cal/(mol*bar)",
+              "cal/mol",
+              "(cal*K)/mol",
+              "cal/(mol*K)",
+              "(cal*K)/mol",
+              "cal/mol"
+            ],
+            "names": [
+              "a1",
+              "a2",
+              "a3",
+              "a4",
+              "c1",
+              "c2",
+              "wref"
+            ]
+          }
+        }
+      ],
+      "sm_heat_capacity_p": {
+        "values": [
+          83.348999023438
+        ],
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/(mol*K)"
+        ]
+      },
+      "sm_gibbs_energy": {
+        "values": [
+          -279700
+        ],
+        "units": [
+          "J/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          -277148
+        ],
+        "units": [
+          "J/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          96.230003356934
+        ],
+        "units": [
+          "J/(mol*K)"
+        ]
+      },
+      "sm_volume": {
+        "values": [
+          -0.1342000067234
+        ],
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/bar"
+        ]
+      },
+      "datasources": [
+        "Slop98_dat:1998:data:           "
+      ]
+    },
+    {
+      "name": "ZnCl2,aq",
+      "symbol": "ZnCl2@",
+      "formula": "ZnCl2@",
+      "formula_charge": 0,
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "TPMethods": [
+        {
+          "method": {
+            "3": "solute_hkf88_reaktoro"
+          },
+          "eos_hkf_coeffs": {
+            "values": [
+              0.51486003398895,
+              479.29000854492,
+              3.8592000007629,
+              -29770.998046875,
+              26.152799606323,
+              40338,
+              -3799.9997558594,
+              0
+            ],
+            "units": [
+              "cal/(mol*bar)",
+              "cal/mol",
+              "(cal*K)/mol",
+              "cal/(mol*K)",
+              "(cal*K)/mol",
+              "cal/mol"
+            ],
+            "names": [
+              "a1",
+              "a2",
+              "a3",
+              "a4",
+              "c1",
+              "c2",
+              "wref"
+            ]
+          }
+        }
+      ],
+      "sm_heat_capacity_p": {
+        "values": [
+          145.16999816894
+        ],
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/(mol*K)"
+        ]
+      },
+      "sm_gibbs_energy": {
+        "values": [
+          -411287
+        ],
+        "units": [
+          "J/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          -456391
+        ],
+        "units": [
+          "J/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          113.08999633789
+        ],
+        "units": [
+          "J/(mol*K)"
+        ]
+      },
+      "sm_volume": {
+        "values": [
+          2.4832000732422
+        ],
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/bar"
+        ]
+      },
+      "datasources": [
+        "Slop98_dat:1998:data:           "
+      ]
+    },
+    {
+      "name": "ZnCl3-",
+      "symbol": "ZnCl3-",
+      "formula": "ZnCl3-",
+      "formula_charge": -1,
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "TPMethods": [
+        {
+          "method": {
+            "3": "solute_hkf88_reaktoro"
+          },
+          "eos_hkf_coeffs": {
+            "values": [
+              0.95635998249054,
+              1557.3200683594,
+              -0.3779000043869,
+              -34227,
+              42.291198730469,
+              55147,
+              125130,
+              0
+            ],
+            "units": [
+              "cal/(mol*bar)",
+              "cal/mol",
+              "(cal*K)/mol",
+              "cal/(mol*K)",
+              "(cal*K)/mol",
+              "cal/mol"
+            ],
+            "names": [
+              "a1",
+              "a2",
+              "a3",
+              "a4",
+              "c1",
+              "c2",
+              "wref"
+            ]
+          }
+        }
+      ],
+      "sm_heat_capacity_p": {
+        "values": [
+          176.13999938965
+        ],
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/(mol*K)"
+        ]
+      },
+      "sm_gibbs_energy": {
+        "values": [
+          -541033
+        ],
+        "units": [
+          "J/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          -641507
+        ],
+        "units": [
+          "J/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          104.59999847412
+        ],
+        "units": [
+          "J/(mol*K)"
+        ]
+      },
+      "sm_volume": {
+        "values": [
+          5.3517999649048
+        ],
+        "errors": [
+          0
+        ],
+        "units": [
+          "J/bar"
+        ]
+      },
+      "datasources": [
+        "Slop98_dat:1998:data:           "
+      ]
     },
     {
       "Pst": 100000,
@@ -85342,534 +85396,7 @@
         ]
       },
       "symbol": "HF(g)"
-    }, 
-    {
-      "Pst": 100000,
-      "TPMethods": [
-        {
-          "eos_hkf_coeffs": {
-            "names": [
-              "a1",
-              "a2",
-              "a3",
-              "a4",
-              "c1",
-              "c2",
-              "wref"
-            ],
-            "units": [
-              "cal/(mol*bar)",
-              "cal/mol",
-              "(cal*K)/(mol*bar)",
-              "(cal*K)/mol",
-              "cal/(mol*K)",
-              "(cal*K)/mol",
-              "cal/mol"
-            ],
-            "values": [
-              -1.2252e-1,
-              -8.9356e2,
-              5.3191,
-              -2.4095e4,
-              15.2013,
-              -4.6234e4,
-              1.4769e5
-            ]
-          },
-          "method": {
-            "3": "solute_hkf88_reaktoro"
-          }
-        }
-      ],
-      "Tst": 298.15,
-      "aggregate_state": {
-        "4": "AS_AQUEOUS"
-      },
-      "class_": {
-        "2": "SC_AQSOLUTE"
-      },
-      "datasources": [
-        "Shock, 1997a"
-      ],
-      "formula": "Co+2",
-      "formula_charge": 2,
-      "name": "Co+2",
-      "reaction": "Co+2",
-      "sm_enthalpy": {
-        "values": [
-          -13900
-        ],
-        "units": [
-          "cal/mol"
-        ]
-      },
-      "sm_entropy_abs": {
-        "values": [
-          -27.0
-        ],
-        "units": [
-          "cal/(mol*K)"
-        ]
-      },
-      "sm_gibbs_energy": {
-        "values": [
-          -13000
-        ],
-        "units": [
-          "cal/mol"
-        ]
-      },
-      "symbol": "Co+2"
-    },
-    {
-        "Pst": 100000,
-        "Tst": 298.15,
-        "TPMethods": [
-            {
-                "eos_hkf_coeffs": {
-                    "names": [
-                        "a1",
-                        "a2",
-                        "a3",
-                        "a4",
-                        "c1",
-                        "c2",
-                        "wref"
-                    ],
-                    "units": [
-                      "cal/(mol*bar)",
-                      "cal/mol",
-                      "(cal*K)/(mol*bar)",
-                      "(cal*K)/mol",
-                      "cal/(mol*K)",
-                      "(cal*K)/mol",
-                      "cal/mol"
-                    ],
-                    "values": [
-                        -0.28678,
-                        -1477.77,
-                        11.5439,
-                        -21680,
-                        16.4739,
-                        -80659,
-                        269010
-                    ]
-                },
-                "method": {
-                    "3": "solute_hkf88_reaktoro"
-                }
-            }
-        ],
-        "datasources": "Shock,1997a",
-        "formula": "Co+3",
-        "formula_charge": 3,
-        "name": "Co+3",
-        "sm_enthalpy": {
-            "units": [
-                "cal/mol"
-            ],
-            "values": [
-                22000
-            ]
-        },
-        "sm_entropy_abs": {
-            "units": [
-                "cal/(mol*K)"
-            ],
-            "values": [
-                -73
-            ]
-        },
-        "sm_gibbs_energy": {
-            "units": [
-                "cal/mol"
-            ],
-            "values": [
-                32000
-            ]
-        },
-        "symbol": "Co+3",
-        "aggregate_state": {
-            "4": "AS_AQUEOUS"
-        },
-        "class_": {
-            "2": "SC_AQSOLUTE"
-        }
-    },
-    {
-        "Pst": 100000,
-        "Tst": 298.15,
-        "TPMethods": [
-            {
-                "eos_hkf_coeffs": {
-                    "names": [
-                        "a1",
-                        "a2",
-                        "a3",
-                        "a4",
-                        "c1",
-                        "c2",
-                        "wref"
-                    ],
-                    "units": [
-                      "cal/(mol*bar)",
-                      "cal/mol",
-                      "(cal*K)/(mol*bar)",
-                      "(cal*K)/mol",
-                      "cal/(mol*K)",
-                      "(cal*K)/mol",
-                      "cal/mol"
-                    ],
-                    "values": [
-                        -0.02561,
-                        -840.39,
-                        9.0457,
-                        -24315,
-                        26.6839,
-                        18542.0,
-                        70030.0                      ]
-                },
-                "method": {
-                    "3": "solute_hkf88_reaktoro"
-                }
-            }
-        ],
-        "datasources": "Shock,1997a",
-        "formula": "CoOH+",
-        "formula_charge": 1,
-        "name": "CoOH+",
-        "sm_enthalpy": {
-            "units": [
-                "cal/mol"
-            ],
-            "values": [
-                -68450
-            ]
-        },
-        "sm_entropy_abs": {
-            "units": [
-                "cal/(mol*K)"
-            ],
-            "values": [
-                -10.0
-            ]
-        },
-        "sm_gibbs_energy": {
-            "units": [
-                "cal/mol"
-            ],
-            "values": [
-                -56025.0
-            ]
-        },
-        "symbol": "CoOH+",
-        "aggregate_state": {
-            "4": "AS_AQUEOUS"
-        },
-        "class_": {
-            "2": "SC_AQSOLUTE"
-        }
-    },
-    {
-        "Pst": 100000,
-        "Tst": 298.15,
-        "TPMethods": [
-            {
-                "eos_hkf_coeffs": {
-                    "names": [
-                        "a1",
-                        "a2",
-                        "a3",
-                        "a4",
-                        "c1",
-                        "c2",
-                        "wref"
-                    ],
-                    "units": [
-                      "cal/(mol*bar)",
-                      "cal/mol",
-                      "(cal*K)/(mol*bar)",
-                      "(cal*K)/mol",
-                      "cal/(mol*K)",
-                      "(cal*K)/mol",
-                      "cal/mol"
-                    ],
-                    "values": [
-                        -0.15566,
-                        -1157.36,
-                        10.2791,
-                        -23004,
-                        8.7031,
-                        -20567,
-                        -3000
-                    ]
-                },
-                "method": {
-                    "3": "solute_hkf88_reaktoro"
-                }
-            }
-        ],
-        "datasources": "Shock,1997a",
-        "formula": "CoO",
-        "formula_charge": 0,
-        "name": "CoO (aq)",
-        "sm_enthalpy": {
-            "units": [
-                "cal/mol"
-            ],
-            "values": [
-                -58800
-            ]
-        },
-        "sm_entropy_abs": {
-            "units": [
-                "cal/(mol*K)"
-            ],
-            "values": [
-                -17.8
-            ]
-        },
-        "sm_gibbs_energy": {
-            "units": [
-                "cal/mol"
-            ],
-            "values": [
-                -44000
-            ]
-        },
-        "symbol": "CoO@",
-        "aggregate_state": {
-            "4": "AS_AQUEOUS"
-        },
-        "class_": {
-            "2": "SC_AQSOLUTE"
-        }
-    },
-    {
-        "Pst": 100000,
-        "Tst": 298.15,
-        "TPMethods": [
-            {
-                "eos_hkf_coeffs": {
-                    "names": [
-                        "a1",
-                        "a2",
-                        "a3",
-                        "a4",
-                        "c1",
-                        "c2",
-                        "wref"
-                    ],
-                    "units": [
-                      "cal/(mol*bar)",
-                      "cal/mol",
-                      "(cal*K)/(mol*bar)",
-                      "(cal*K)/mol",
-                      "cal/(mol*K)",
-                      "(cal*K)/mol",
-                      "cal/mol"
-                    ],
-                    "values": [
-                        -0.0059,
-                        -792.19,
-                        8.854,
-                        -24514,
-                        21.8518,
-                        -94714,
-                        371270                      
-                      ]
-                },
-                "method": {
-                    "3": "solute_hkf88_reaktoro"
-                }
-            }
-        ],
-        "datasources": "Shock,1997a",
-        "formula": "CoO2-2",
-        "formula_charge": -2,
-        "name": "CoO2-2",
-        "sm_enthalpy": {
-            "units": [
-                "cal/mol"
-            ],
-            "values": [
-                -99000
-            ]
-        },
-        "sm_entropy_abs": {
-            "units": [
-                "cal/(mol*K)"
-            ],
-            "values": [
-                -32.7
-            ]
-        },
-        "sm_gibbs_energy": {
-            "units": [
-                "cal/mol"
-            ],
-            "values": [
-                -63200
-            ]
-        },
-        "symbol": "CoO2-2",
-        "aggregate_state": {
-            "4": "AS_AQUEOUS"
-        },
-        "class_": {
-            "2": "SC_AQSOLUTE"
-        }
-    },
-    {
-        "Pst": 100000,
-        "Tst": 298.15,
-        "TPMethods": [
-            {
-                "eos_hkf_coeffs": {
-                    "names": [
-                        "a1",
-                        "a2",
-                        "a3",
-                        "a4",
-                        "c1",
-                        "c2",
-                        "wref"
-                    ],
-                    "units": [
-                      "cal/(mol*bar)",
-                      "cal/mol",
-                      "(cal*K)/(mol*bar)",
-                      "(cal*K)/mol",
-                      "cal/(mol*K)",
-                      "(cal*K)/mol",
-                      "cal/mol"
-                    ],
-                    "values": [
-                        -0.10884,
-                        -1043.53,
-                        9.8425,
-                        -23475,
-                        16.5492,
-                        -41549,
-                        147690
-                    ]
-                },
-                "method": {
-                    "3": "solute_hkf88_reaktoro"
-                }
-            }
-        ],
-        "datasources": "Shock,1997a",
-        "formula": "CoOH+2",
-        "formula_charge": 2,
-        "name": "CoOH+2",
-        "sm_enthalpy": {
-            "units": [
-                "cal/mol"
-            ],
-            "values": [
-                -36100
-            ]
-        },
-        "sm_entropy_abs": {
-            "units": [
-                "cal/(mol*K)"
-            ],
-            "values": [
-                -27.8
-            ]
-        },
-        "sm_gibbs_energy": {
-            "units": [
-                "cal/mol"
-            ],
-            "values": [
-                -23000
-            ]
-        },
-        "symbol": "CoOH+2",
-        "aggregate_state": {
-            "4": "AS_AQUEOUS"
-        },
-        "class_": {
-            "2": "SC_AQSOLUTE"
-        }
-    },
-    {
-      "Pst": 100000,
-      "Tst": 298.15,
-      "TPMethods": [
-          {
-              "eos_hkf_coeffs": {
-                  "names": [
-                      "a1",
-                      "a2",
-                      "a3",
-                      "a4",
-                      "c1",
-                      "c2",
-                      "wref"
-                  ],
-                  "units": [
-                      "cal/(mol*bar)",
-                      "cal/mol",
-                      "(cal*K)/(mol*bar)",
-                      "(cal*K)/mol",
-                      "cal/(mol*K)",
-                      "(cal*K)/mol",
-                      "cal/mol"
-                    ],
-                  "values": [
-                      -0.00971,
-                      -801.55,
-                      8.8926,
-                      -24475,
-                      44.7712,
-                      -39116,
-                      202110
-                  ]
-              },
-              "method": {
-                  "3": "solute_hkf88_reaktoro"
-              }
-          }
-      ],
-      "datasources": "Shock,1997a",
-      "formula": "HCoO2-",
-      "formula_charge": -1,
-      "name": "HCoO2-",
-      "sm_enthalpy": {
-          "units": [
-              "cal/mol"
-          ],
-          "values": [
-              -117100
-          ]
-      },
-      "sm_entropy_abs": {
-          "units": [
-              "cal/(mol*K)"
-          ],
-          "values": [
-              -25.5
-          ]
-      },
-      "sm_gibbs_energy": {
-          "units": [
-              "cal/mol"
-          ],
-          "values": [
-              -83400
-          ]
-      },
-      "symbol": "HCoO2-",
-      "aggregate_state": {
-          "4": "AS_AQUEOUS"
-      },
-      "class_": {
-          "2": "SC_AQSOLUTE"
-      }
-    } 
+    }
   ],
   "thermodataset": [
     "mines19"

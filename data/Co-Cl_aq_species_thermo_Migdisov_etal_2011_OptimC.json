@@ -137,17 +137,6 @@
         ],
         "datasources": "Migdisov et al., 2011",
         "equation": "CoCl4-2 = Co+2 + 4Cl- ",
-        "logKr": {
-            "errors": [
-            {}
-            ],
-            "status": [
-            {}
-            ],
-            "values": [
-            {}
-            ]
-        },
         "reactants": [
             {
             "coefficient": 1,
